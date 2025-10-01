@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Journey Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Navigation -->
+        <div class="slide-nav">
+            <button class="nav-btn" id="prevBtn">← Previous</button>
+            <div class="slide-indicator">
+                <span id="currentSlide">1</span> / <span id="totalSlides">8</span>
+            </div>
+            <button class="nav-btn" id="nextBtn">Next →</button>
+        </div>
+
+        <!-- Slide 1: Title -->
+        <div class="slide active" data-slide="1">
+            <div class="slide-content title-slide">
+                <h1>Customer Journey Automation</h1>
+                <p class="subtitle">Transform Your Business with Smart, Automated Follow-Up</p>
+                <div class="title-icon">🚀</div>
+                <p class="description">A complete system that nurtures leads through a free community, converts them to paying students, and turns them into advocates</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Overview -->
+        <div class="slide" data-slide="2">
+            <div class="slide-content">
+                <h2>The Complete Customer Journey</h2>
+                <p class="slide-subtitle">Four phases that work together to maximize every opportunity</p>
+
+                <div class="phases-overview">
+                    <div class="phase-card phase-1">
+                        <div class="phase-number">1</div>
+                        <h3>First Contact & Building Trust</h3>
+                        <p>Free community nurtures leads</p>
+                    </div>
+                    <div class="phase-card phase-2">
+                        <div class="phase-number">2</div>
+                        <h3>Making a Decision</h3>
+                        <p>Convert community members to students</p>
+                    </div>
+                    <div class="phase-card phase-3">
+                        <div class="phase-number">3</div>
+                        <h3>Paid Student Experience</h3>
+                        <p>Support and guide course completion</p>
+                    </div>
+                    <div class="phase-card phase-4">
+                        <div class="phase-number">4</div>
+                        <h3>Sharing Their Experience</h3>
+                        <p>Turn graduates into advocates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Phase 1 -->
+        <div class="slide" data-slide="3">
+            <div class="slide-content">
+                <h2>Phase 1: First Contact & Building Trust</h2>
+                <div class="flowchart">
+                    <div class="flow-step">Sees an Ad, Social Post, or QR Code</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step">Fills out Form for Free Resource</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step success">Receives Welcome Text & Email with Freebie</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step community">Invited to Join Free Student Community</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step decision">Engages with first message?</div>
+                    <div class="flow-branches">
+                        <div class="branch-yes">
+                            <span class="branch-label">YES</span>
+                            <div class="flow-step success">Gets Main Course Offer</div>
+                        </div>
+                        <div class="branch-no">
+                            <span class="branch-label">NOT YET</span>
+                            <div class="flow-step warning">More helpful messages in community</div>
+                            <div class="flow-step info">Stays in free community</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-benefit">
+                    💡 Free community keeps leads warm and builds trust before any sales pitch
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Phase 2 -->
+        <div class="slide" data-slide="4">
+            <div class="slide-content">
+                <h2>Phase 2: Making a Decision</h2>
+                <div class="flowchart">
+                    <div class="flow-step">Community Member Receives Main Course Offer</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step decision">Decides to Buy the Course?</div>
+                    <div class="flow-branches">
+                        <div class="branch-no">
+                            <span class="branch-label">NOT NOW</span>
+                            <div class="flow-step warning">Friendly Reminder Later</div>
+                            <div class="flow-step info">Continues getting value in free community</div>
+                        </div>
+                        <div class="branch-yes">
+                            <span class="branch-label">YES, I'M IN!</span>
+                            <div class="flow-step success">Completes Purchase</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-benefit">
+                    💡 No pressure - they stay in the free community until ready to upgrade
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Phase 3 -->
+        <div class="slide" data-slide="5">
+            <div class="slide-content">
+                <h2>Phase 3: The Paid Student Experience</h2>
+                <div class="flowchart">
+                    <div class="flow-step success">Welcome to the Course! Email</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step">Gains Full Access to Course Material</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step decision">Making steady progress?</div>
+                    <div class="flow-branches">
+                        <div class="branch-yes">
+                            <span class="branch-label">YES</span>
+                            <div class="flow-step success">Completes Core Course!</div>
+                        </div>
+                        <div class="branch-no">
+                            <span class="branch-label">INACTIVE</span>
+                            <div class="flow-step warning">Check-in: 'Need help?'</div>
+                            <div class="flow-step info">Final encouraging message if still inactive</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-benefit">
+                    💡 Automatic student success tracking ensures no one gets left behind
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Phase 4 -->
+        <div class="slide" data-slide="6">
+            <div class="slide-content">
+                <h2>Phase 4: Sharing Their Experience</h2>
+                <div class="flowchart">
+                    <div class="flow-step">Course Graduate Receives Feedback Request</div>
+                    <div class="flow-arrow">↓</div>
+                    <div class="flow-step decision">How was the experience? (1-5 Stars)</div>
+                    <div class="flow-branches">
+                        <div class="branch-yes">
+                            <span class="branch-label">LOVED IT! (4-5★)</span>
+                            <div class="flow-step success">Invite to Share on Google Reviews</div>
+                            <div class="flow-step advocate">Becomes Public Advocate!</div>
+                        </div>
+                        <div class="branch-no">
+                            <span class="branch-label">COULD IMPROVE (1-3★)</span>
+                            <div class="flow-step warning">Private Feedback Collection</div>
+                            <div class="flow-step info">Personal Review & Improvement</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-benefit">
+                    💡 Automatic reputation building - showcase success, improve privately
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Benefits -->
+        <div class="slide" data-slide="7">
+            <div class="slide-content">
+                <h2>Why This System Works So Well</h2>
+                <p class="slide-subtitle">The key advantages of this community-first approach</p>
+
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🎯</div>
+                        <h4>Never Lose a Lead</h4>
+                        <p>Free community keeps everyone engaged, even if they're not ready to buy yet</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🤝</div>
+                        <h4>Build Trust Naturally</h4>
+                        <p>Provide real value first through free community and resources</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🎓</div>
+                        <h4>Student Success Tracking</h4>
+                        <p>Automatic check-ins ensure every paid student gets support when needed</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⭐</div>
+                        <h4>Smart Reputation Management</h4>
+                        <p>Happy students become advocates, concerns are handled privately</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⏰</div>
+                        <h4>Runs 24/7 Automatically</h4>
+                        <p>Save hours daily while providing better student experience</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📈</div>
+                        <h4>Higher Conversion Rates</h4>
+                        <p>Community members convert 3x better than cold leads</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Next Steps -->
+        <div class="slide" data-slide="8">
+            <div class="slide-content">
+                <h2>Ready to Build This for Your Business?</h2>
+                <p class="slide-subtitle">Let's create your automated student journey system</p>
+
+                <div class="next-steps">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <h4>Discovery Call</h4>
+                        <p>We'll map out your specific student journey and identify automation opportunities</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <h4>Build & Test</h4>
+                        <p>Create the complete automation in GoHighLevel with your branding and messaging</p>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <h4>Launch & Optimize</h4>
+                        <p>Go live with your existing audience and continuously improve based on results</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>🚀 Let's Get Started</h3>
+                    <p>Schedule a free 30-minute consultation to discuss your specific needs</p>
+                    <button class="cta-button" onclick="scheduleConsultation()">Schedule Your Free Consultation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
